@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .navlogo{
     height: 50px;
@@ -36,6 +37,37 @@
     font-size: 0.875rem;
     margin-left: 5px;
 }
-.addicon{
+.add-icon{
     display: flex;
+}
+.navsearch{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    background-color: rgb(237, 172, 59);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    width: 45px;
+    height: 100%;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

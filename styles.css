@@ -37,16 +37,20 @@
     font-size: 0.875rem;
     margin-left: 5px;
 }
-.add-icon{
+.addIcon{
     display: flex;
 }
 .navsearch{
     display: flex;
-    width: 600px;
+    width: 800px;
     height: 40px;
     border-radius: 5px;
 }
-.search-select{
+.navsearch:hover{
+    border: 2px solid rgb(237, 172, 59);
+    border-radius: 5px;
+}
+.searchSelect{
     background-color: #f3f3f3;
     width: 50px;
     border-top-left-radius: 5px;
@@ -54,12 +58,12 @@
     border: none;
     text-align: center;
 }
-.search-input{
+.searchInput{
     width: 100%;
     border: none;
     font-size: 1rem;
 }
-.search-icon{
+.searchIcon{
     background-color: rgb(237, 172, 59);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -70,4 +74,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.navSignIn{
+    color: #ffffff;
+}
+.signIn1{
+    font-size: 12px;
+}
+.signIn2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.navCart{
+    display: flex;
+    align-items: end;
+}
+.navCart i{
+    font-size: 30px;
+}
+
+.panel{
+    height: 40px;
+    padding-left: 1px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.panelAll a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: end;
+    padding: 8px;
+}
+.panelAll i{
+    font-size: 20px;
+}
+.panelAll p{
+    padding-left: 5px;
+}
+.panelItems a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px;
 }

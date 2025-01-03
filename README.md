@@ -1,2 +1,2 @@
 # Amazon-Clone
-Amazon clone using HTML and CSS only.
+Amazon UI clone using HTML and CSS only.

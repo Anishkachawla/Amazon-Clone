@@ -152,7 +152,7 @@
     background: linear-gradient(180deg, rgba(121,12,76,1) 0%, rgba(251,251,251,1) 100%);
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 325px));
     grid-row-gap: 15px;
     grid-column-gap: 15px;
     padding: 18px;
